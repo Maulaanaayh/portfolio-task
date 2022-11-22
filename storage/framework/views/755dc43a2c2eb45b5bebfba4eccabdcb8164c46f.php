@@ -34,7 +34,6 @@
                     <?php echo $__env->yieldContent('content'); ?>
 
                 </div>
-                <!-- /.container-fluid -->
 
             </div>
             <!-- End of Main Content -->

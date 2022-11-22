@@ -25,7 +25,7 @@ class KontakController extends Controller
      */
     public function create()
     {
-        return view('admin-pages.kontak.CreateSiswa', [
+        return view('admin-pages.kontak.CreateKontak', [
             "title" => "Tambah Kontak"
         ]);
     }

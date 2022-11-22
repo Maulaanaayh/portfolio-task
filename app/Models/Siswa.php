@@ -17,7 +17,7 @@ class Siswa extends Model
         'foto',
         'about'
     ];
-    protected $table = 'Siswa';
+    protected $table = 'siswa';
 
     public function kontak(){
         return $this->belongsToMany('App\Models\jenis_kontak')->withPivot('deskripsi');
