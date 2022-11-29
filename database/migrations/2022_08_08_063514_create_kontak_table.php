@@ -13,7 +13,7 @@ class CreateKontakTable extends Migration
      */
     public function up()
     {
-        Schema::create('kontak', function (Blueprint $table) {
+        Schema::create('jenis_kontak_siswa', function (Blueprint $table) {
             $table->id();
             // set foreign key
             $table->unsignedBigInteger('siswa_id');
